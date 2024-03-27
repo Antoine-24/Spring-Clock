@@ -17,6 +17,9 @@ let bg = 0; //controls bg color
 function setup() {
   createCanvas(windowWidth, windowHeight);
   clockfont = loadFont("DS-DIGI.TTF");
+  var canvas = createCanvas(600, 400);
+
+  canvas.parent('project');
 }
 
 function draw() {
